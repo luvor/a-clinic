@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A-clinic</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="main-menu">
+        <a class="main-menu__link" href="#"
+          >Almaty <span class="p-color-text">A-clinic</span></a
+        >
+        <a href="#" class="cta-btn">login</a>
+      </nav>
+    </header>
+    <section class="first">
+      <div class="container">
+        <div class="first__inner">
+          <div class="first__text">
+            <h1 class="s-title">Sciatica Treatment</h1>
+            <p>
+              See A Surgeon Near You <br />
+              About Advanced Non-Surgical Treatment. No Wait*.
+            </p>
+            <a href="#" class="cta-btn">I want to determine my eligibility</a>
+            <p>
+              *Eligible Patients See An Ontario Spine Surgeon Within 3 Weeks
+            </p>
+          </div>
+          <div class="first__img">
+            <img class="first__hero" src="./media/hero.jpg" alt="clinic" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="satisfied">
+      <div class="container">
+        <h2 class="s-title">100.000+ Satisfied Patients In Kazakhstan</h2>
+        <p class="p-color-text">Now Available To You</p>
+        <div class="satisfied__cards">
+          <div class="scard">
+            <video src="./video/play_video.mov"></video>
+            <p class="scard__title">
+              Play above video to see how it works or click below to read more.
+            </p>
+            <a href="#" class="cta-btn">CT-Guided Ozone Procudure</a>
+          </div>
+          <div class="scard">
+            <video src="./video/play_video.mov"></video>
+            <p class="scard__title">
+              Play above video to see how it works or click below to read more.
+            </p>
+            <a href="#" class="cta-btn">CT-Guided Ozone Procudure</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <p class="p-color-text">What Our</p>
+        <h2 class="s-title">Patients Say</h2>
+        <div class="reviews__marks">&starf;&starf;&starf;&starf;&starf;</div>
+        <div class="patients__cards">
+          <div class="patient__card">
+            <video src="./video/play_video.mov"></video>
+            <a href="#" class="cta-btn">Get started</a>
+          </div>
+          <div class="patient__card">
+            <video src="./video/play_video.mov"></video>
+            <a href="#" class="cta-btn">Get started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="qa">
+      <div class="container">
+        <h2 class="s-title">Still in doubt</h2>
+        <p class="p-color-text">
+          Read below what our patients have asked us most frequently
+        </p>
+        <div class="qa__questions">
+          <div class="question qactive" id="q1" onclick="toggleQ('q1')">
+            <div class="qt__icon">
+              <img src="./media/icons/question-close.svg" alt="-" />
+            </div>
+            <h3 class="question__title">What does CT-Guided Ozone cure?</h3>
+            <p class="question__content">
+              The procedure can end all symptoms that are a consequence of nerve
+              root pressure that is exerted by a herniated/protruded disc. These
+              include leg and foot symptoms (pain, numbness, tingling, lack of
+              sensitivity, lack of control, spasms); and can also include back
+              symptoms (pain and back spasms). A prognosis of the result you
+              might expect from treatment is provided by one of our surgeons
+              following a clinical and radiological evaluation of your specific
+              case.
+            </p>
+          </div>
+          <div class="question" id="q2" onclick="toggleQ('q2')">
+            <div class="qt__icon">
+              <img src="./media/icons/question-open.svg" alt="+" />
+            </div>
+            <h3 class="question__title">
+              Which circumstances does CT-Guided Ozone end pain in?
+            </h3>
+            <p class="question__content">
+              The procedure can end all symptoms that are a consequence of nerve
+              root pressure that is exerted by a herniated/protruded disc. These
+              include leg and foot symptoms (pain, numbness, tingling, lack of
+              sensitivity, lack of control, spasms); and can also include back
+              symptoms (pain and back spasms). A prognosis of the result you
+              might expect from treatment is provided by one of our surgeons
+              following a clinical and radiological evaluation of your specific
+              case.
+            </p>
+          </div>
+          <div class="question" id="q3" onclick="toggleQ('q3')">
+            <div class="qt__icon">
+              <img src="./media/icons/question-open.svg" alt="+" />
+            </div>
+            <h3 class="question__title">
+              Can everybody qualify for CT-Guided Ozone?
+            </h3>
+            <p class="question__content">
+              The procedure can end all symptoms that are a consequence of nerve
+              root pressure that is exerted by a herniated/protruded disc. These
+              include leg and foot symptoms (pain, numbness, tingling, lack of
+              sensitivity, lack of control, spasms); and can also include back
+              symptoms (pain and back spasms). A prognosis of the result you
+              might expect from treatment is provided by one of our surgeons
+              following a clinical and radiological evaluation of your specific
+              case.
+            </p>
+          </div>
+          <div class="question" id="q4" onclick="toggleQ('q4')">
+            <div class="qt__icon">
+              <img src="./media/icons/question-open.svg" alt="+" />
+            </div>
+            <h3 class="question__title">
+              Presuming I am a CT-Guided Ozone candidate, why is it better than
+              other solutions?
+            </h3>
+            <p class="question__content">
+              The procedure can end all symptoms that are a consequence of nerve
+              root pressure that is exerted by a herniated/protruded disc. These
+              include leg and foot symptoms (pain, numbness, tingling, lack of
+              sensitivity, lack of control, spasms); and can also include back
+              symptoms (pain and back spasms). A prognosis of the result you
+              might expect from treatment is provided by one of our surgeons
+              following a clinical and radiological evaluation of your specific
+              case.
+            </p>
+          </div>
+          <div class="question" id="q5" onclick="toggleQ('q5')">
+            <div class="qt__icon">
+              <img src="./media/icons/question-open.svg" alt="+" />
+            </div>
+            <h3 class="question__title">Is CT-Guided Ozone OHIP-eligible?</h3>
+            <p class="question__content">
+              The procedure can end all symptoms that are a consequence of nerve
+              root pressure that is exerted by a herniated/protruded disc. These
+              include leg and foot symptoms (pain, numbness, tingling, lack of
+              sensitivity, lack of control, spasms); and can also include back
+              symptoms (pain and back spasms). A prognosis of the result you
+              might expect from treatment is provided by one of our surgeons
+              following a clinical and radiological evaluation of your specific
+              case.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="offers">
+      <div class="container">
+        <div class="offers_item">
+          <h2 class="s-title">See an Ontario Spine Surgeon within 3 weeks</h2>
+          <a href="#" class="cta-btn">I WANT TO DETERMINE MY ELIGIBILITY</a>
+        </div>
+        <div class="offers_item">
+          <h2 class="s-title">5 Minutes Eligibility Screening Test</h2>
+          <p class="p-color-text">Click Below "Yes, I Am Ready" To Start</p>
+          <a href="#" class="cta-btn">Yes, I Am Ready</a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer__inner">
+          <div class="f__block">
+            <h4 class="f__title">Navigation</h4>
+            <ul>
+              <li><a href="#">About CT-Guided Ozone</a></li>
+              <li><a href="#">Why To Choose CT-Guided Ozone</a></li>
+              <li><a href="#">Eligibility Procedure</a></li>
+              <li><a href="#">Determine Your Eligibility Now</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="f__block">
+            <h4 class="f__title">About us</h4>
+            <p>
+              Ontario MediLink coordinates advanced non-OHIP eligible treatment
+              programs that require collaborative care across its network of
+              specialists. We provide the required linkages between physician
+              participants, ensuring effective continuity of patient care. Our
+              model further enables participating physicians to focus on doing
+              what they do best ~ providing high quality health services within
+              the scope of their expertise.
+            </p>
+          </div>
+        </div>
+        <div class="footer__credits">
+          <a href="#">Ontario <span class="p-color-text">MediLink</span></a>
+          <p>320 Craigleith Drive – Waterloo, Ontario – N2L 5B3</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      function toggleQ(id) {
+        let q = document.querySelector("#" + id);
+        if (q.classList.contains("qactive")) {
+          q.classList.remove("qactive");
+          q.querySelector(".qt__icon").innerHTML =
+            '<img src="./media/icons/question-open.svg" alt="+" />';
+        } else {
+          q.classList.add("qactive");
+          q.querySelector(".qt__icon").innerHTML =
+            '<img src="./media/icons/question-close.svg" alt="-" />';
+        }
+      }
+      // let questions = document.querySelectorAll(".question");
+      // console.log(questions);
+      // questions.forEach((item) => {
+      //   item.addEventListener("click", function () {
+      //     if (
+      //       this.querySelector(".qt__icon").innerHTML ===
+      //       '<img src="./media/icons/question-close.svg" alt="-" />'
+      //     ) {
+      //       console.log(this);
+      //       this.querySelector(".qt__icon").innerHTML =
+      //         '<img src="./media/icons/question-open.svg" alt="+" />';
+      //     }
+      //   });
+      // });
+    </script>
+  </body>
+</html>
