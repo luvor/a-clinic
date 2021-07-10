@@ -114,6 +114,10 @@ p {
 .question:active {
   transition: 1s;
 }
+.qt__icon img{
+  width: 18px;
+  height: 18px;
+}
 .question__title {
   margin-left: 15px;
   line-height: 24px;
@@ -179,9 +183,12 @@ footer a {
   margin-top: 14px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
   .container,
   .main-menu {
     padding: 70px 50px;
+  }
+  .first__hero{
+    max-width: 480px;
   }
 }
